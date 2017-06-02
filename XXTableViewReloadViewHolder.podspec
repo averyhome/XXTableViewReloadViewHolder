@@ -10,6 +10,5 @@ Pod::Spec.new do |s|
     s.source_files = 'XXTableViewReloadViewHolder/Reachability/*.{h,m}','XXTableViewReloadViewHolder/*.{h,m}'
     s.resource     = 'XXTableViewReloadViewHolder/xxSourceBundle.bundle'
     s.frameworks   = 'Foundation','UIKit','SystemConfiguration'
-    s.libraries    = 'sys','netinet','netinet6','arpa','objc'
     s.requires_arc = true
 end
