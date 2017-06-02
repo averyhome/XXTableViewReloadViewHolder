@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/xuxueing/XXTableViewReloadViewHolder.git', :tag => s.version}
     s.source_files = 'XXTableViewReloadViewHolder/Reachability/*.{h,m}','XXTableViewReloadViewHolder/*.{h,m}'
     s.resource     = 'XXTableViewReloadViewHolder/xxSourceBundle.bundle'
-    s.frameworks   = 'Foundation','UIKit'
+    s.frameworks   = 'Foundation','UIKit','SystemConfiguration','sys','netinet','netinet6','arpa','ifaddrs','netdb'
     s.requires_arc = true
 end
