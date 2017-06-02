@@ -462,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WCW9GQA93Z;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = XXTableViewReloadViewHolderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxl.XXTableViewReloadViewHolder.XXTableViewReloadViewHolderDemo;
@@ -474,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WCW9GQA93Z;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = XXTableViewReloadViewHolderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxl.XXTableViewReloadViewHolder.XXTableViewReloadViewHolderDemo;
