@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
     s.authors      = {'朱小亮' => '330578304@qq.com'}
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/xuxueing/XXTableViewReloadViewHolder.git', :tag => s.version}
-    s.source_files = 'XXTableViewReloadViewHolder/**/*.{h,m}'
+    s.source_files = 'XXTableViewReloadViewHolder/Reachability/*.{h,m}','XXTableViewReloadViewHolder/*.{h,m}'
     s.resource     = 'XXTableViewReloadViewHolder/xxSourceBundle.bundle'
+    s.frameworks   = 'Foundation','UIKit'
     s.requires_arc = true
 end
