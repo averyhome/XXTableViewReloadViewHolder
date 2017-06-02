@@ -258,7 +258,7 @@
     self.noNetView.backgroundColor = [UIColor colorWithRed:247/255. green:216/255. blue:176/255. alpha:1];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 5, height-10, height-10)];
-    imageView.image = [UIImage imageNamed:@"internet"];
+    imageView.image = [UIImage imageWithContentsOfFile:[[self xxSourceBundle] pathForResource:@"internet" ofType:@"png"]];
     [self.noNetView addSubview:imageView];
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(imageView.frame.size.width + imageView.frame.origin.x +5, 5, self.frame.size.width - 20 - height, height-10)];
@@ -286,7 +286,7 @@
     
     UIImageView *errorImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
     errorImageView.center = CGPointMake(CGRectGetWidth(self.placeHolderView.frame) / 2, CGRectGetHeight(self.placeHolderView.frame) / 2 - 100);
-    errorImageView.image = [UIImage imageNamed:@"WebView_LoadFail_Refresh_Icon"];
+    errorImageView.image = [UIImage imageWithContentsOfFile:[[self xxSourceBundle] pathForResource:@"WebView_LoadFail_Refresh_Icon@2x" ofType:@"png"]];
     [self.placeHolderView addSubview:errorImageView];
     
     UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, errorImageView.frame.size.height+errorImageView.frame.origin.y, self.placeHolderView.frame.size.width, 60)];
@@ -307,6 +307,15 @@
     return [NSKeyedUnarchiver unarchiveObjectWithData:tempArchive];
 }
 
+
+- (NSBundle *)xxSourceBundle
+{
+    static NSBundle *xxSourceBundle = nil;
+    if (xxSourceBundle == nil) {
+        xxSourceBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"xxSourceBundle" ofType:@"bundle"]];
+    }
+    return xxSourceBundle;
+}
 @end
 
 

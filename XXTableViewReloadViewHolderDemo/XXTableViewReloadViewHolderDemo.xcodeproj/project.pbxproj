@@ -16,9 +16,8 @@
 		30FEFD4F1EDFEC13001C6DF5 /* XXTableViewReloadViewHolderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FEFD4E1EDFEC13001C6DF5 /* XXTableViewReloadViewHolderDemoTests.m */; };
 		30FEFD5A1EDFEC13001C6DF5 /* XXTableViewReloadViewHolderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FEFD591EDFEC13001C6DF5 /* XXTableViewReloadViewHolderDemoUITests.m */; };
 		30FEFD831EE104EC001C6DF5 /* UITableView+XXTableViewReloadViewHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FEFD801EE104EC001C6DF5 /* UITableView+XXTableViewReloadViewHolder.m */; };
-		30FEFD841EE104EC001C6DF5 /* WebView_LoadFail_Refresh_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FEFD811EE104EC001C6DF5 /* WebView_LoadFail_Refresh_Icon@2x.png */; };
 		30FEFD871EE10B4C001C6DF5 /* XXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FEFD861EE10B4C001C6DF5 /* XXReachability.m */; };
-		30FEFD891EE119F1001C6DF5 /* internet.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FEFD881EE119F1001C6DF5 /* internet.png */; };
+		30FEFD8D1EE14F12001C6DF5 /* xxSourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30FEFD8C1EE14F12001C6DF5 /* xxSourceBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +56,9 @@
 		30FEFD5B1EDFEC13001C6DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FEFD7F1EE104EC001C6DF5 /* UITableView+XXTableViewReloadViewHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XXTableViewReloadViewHolder.h"; sourceTree = "<group>"; };
 		30FEFD801EE104EC001C6DF5 /* UITableView+XXTableViewReloadViewHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XXTableViewReloadViewHolder.m"; sourceTree = "<group>"; };
-		30FEFD811EE104EC001C6DF5 /* WebView_LoadFail_Refresh_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WebView_LoadFail_Refresh_Icon@2x.png"; sourceTree = "<group>"; };
 		30FEFD851EE10B4C001C6DF5 /* XXReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXReachability.h; sourceTree = "<group>"; };
 		30FEFD861EE10B4C001C6DF5 /* XXReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXReachability.m; sourceTree = "<group>"; };
-		30FEFD881EE119F1001C6DF5 /* internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = internet.png; sourceTree = "<group>"; };
+		30FEFD8C1EE14F12001C6DF5 /* xxSourceBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xxSourceBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +155,7 @@
 				30FEFD7C1EE104EC001C6DF5 /* Reachability */,
 				30FEFD7F1EE104EC001C6DF5 /* UITableView+XXTableViewReloadViewHolder.h */,
 				30FEFD801EE104EC001C6DF5 /* UITableView+XXTableViewReloadViewHolder.m */,
-				30FEFD881EE119F1001C6DF5 /* internet.png */,
-				30FEFD811EE104EC001C6DF5 /* WebView_LoadFail_Refresh_Icon@2x.png */,
+				30FEFD8C1EE14F12001C6DF5 /* xxSourceBundle.bundle */,
 			);
 			path = XXTableViewReloadViewHolder;
 			sourceTree = "<group>";
@@ -281,11 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FEFD891EE119F1001C6DF5 /* internet.png in Resources */,
+				30FEFD8D1EE14F12001C6DF5 /* xxSourceBundle.bundle in Resources */,
 				30FEFD441EDFEC13001C6DF5 /* LaunchScreen.storyboard in Resources */,
 				30FEFD411EDFEC13001C6DF5 /* Assets.xcassets in Resources */,
 				30FEFD3F1EDFEC13001C6DF5 /* Main.storyboard in Resources */,
-				30FEFD841EE104EC001C6DF5 /* WebView_LoadFail_Refresh_Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
