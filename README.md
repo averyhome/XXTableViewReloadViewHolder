@@ -1,4 +1,3 @@
-[![Reference Status](https://www.versioneye.com/objective-c/reachability/reference_badge.svg?style=flat)]
 # XXTableViewReloadViewHolder
 
 这是一个非常简单的tableview分类  用法很简单 没有侵入性 只需拷贝到项目中 就可以 不破坏原来的tableview 不需要继承tableview
@@ -35,9 +34,3 @@
     
 
 ```
-
-
-
-## Tell the world
-
-如果对你有用 请给star
